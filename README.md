@@ -1,4 +1,4 @@
-# From Theory to Evaluation: An Experimental Survey on XAI — benchmark code (v2)
+# From Theory to Evaluation: An Experimental Survey on XAI
 
 Unified benchmark of XAI methods on image, text, tabular, graph and time-series data.
 Every modality trains **one** model, explains the **same** test instances with every
