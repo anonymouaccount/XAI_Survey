@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # From Theory to Evaluation: An Experimental Survey on XAI — benchmark code (v2)
 
 Unified benchmark of XAI methods on image, text, tabular, graph and time-series data.
@@ -45,4 +44,3 @@ To download the datasets by hand instead, put these zips in `data/raw/`:
 All metrics: 200 correctly classified test instances, 3 seeds, values in [0, 1], higher is better.
 =======
 # XAI_Survey
->>>>>>> f2f5414a0514919506d964aead0f41d5af238352
