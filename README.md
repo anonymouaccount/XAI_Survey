@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # From Theory to Evaluation: An Experimental Survey on XAI — benchmark code (v2)
 
 Unified benchmark of XAI methods on image, text, tabular, graph and time-series data.
@@ -114,3 +115,6 @@ explanation is unstable; the Gini sparsity of a set of m features out of d equal
 | Graph (BA-Shapes, Stack Overflow, MUTAG) | 3-layer GCN | GNNExplainer, PGExplainer, GraphLIME, XGNN (MUTAG), random |
 
 All metrics: 200 correctly classified test instances, 3 seeds, values in [0, 1], higher is better.
+=======
+# XAI_Survey
+>>>>>>> f2f5414a0514919506d964aead0f41d5af238352
