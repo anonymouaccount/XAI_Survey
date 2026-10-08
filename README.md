@@ -7,7 +7,7 @@ which implement Section 5.3 of the paper.
 
 ```
 xai-benchmark/
-├── requirements/          binary.txt, pure.txt, torch.txt (exact package lists)
+├── requirements/          binary.txt, pure.txt, torch.txt
 ├── scripts/
 │   ├── check_cluster.sh   tells which versions
 │   ├── prepare_offline.sh downloads packages, data, weights
