@@ -9,16 +9,16 @@ which implement Section 5.3 of the paper.
 xai-benchmark/
 ├── requirements/          binary.txt, pure.txt, torch.txt (exact package lists)
 ├── scripts/
-│   ├── check_cluster.sh   run once on the cluster, tells which versions to download
-│   ├── prepare_offline.sh run on your laptop : downloads packages, data, weights
-│   ├── setup_cluster.sh   run on the cluster : creates the environment
+│   ├── check_cluster.sh   tells which versions
+│   ├── prepare_offline.sh downloads packages, data, weights
+│   ├── setup_cluster.sh   creates the environment
 │   ├── check_env.py       prints package versions and GPU status
-│   └── run.py             entry point: python scripts/run.py
+│   └── run.py             python scripts/run.py
 ├── slurm/                 run_cpu.sbatch (tabular), run_gpu.sbatch
 ├── src/xaibench/
 │   ├── metrics.py         Fid_del, Fid_suf, Gini sparsity, stability, robustness, consistency
 │   ├── utils.py           seeds, paths, CSV results writer
-│   └── <modality>.py      one file per modality (added step by step)
+│   └── <modality>.py      one file per modality
 ├── tests/test_metrics.py  checks the metrics
 ├── results/               CSV files used to build the tables
 └── legacy_notebooks/     
