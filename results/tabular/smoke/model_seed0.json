@@ -1,0 +1,31 @@
+{
+  "accuracy": 0.6271525544837442,
+  "balanced_accuracy": 0.5637952476127026,
+  "auc": 0.6467163161067224,
+  "n_train": 55978,
+  "n_test": 13995,
+  "n_features": 30,
+  "positive_rate": 0.4072856673288268,
+  "modality": "tabular",
+  "seed": 0,
+  "date": "2026-10-02T17:03:28",
+  "host": "nodeC000",
+  "python": "3.11.9",
+  "commit": "unknown",
+  "slurm_job": "",
+  "config": {
+    "n_instances": 4,
+    "test_size": 0.2,
+    "n_estimators": 30,
+    "max_depth": 3,
+    "learning_rate": 0.1,
+    "eps_stability": 0.05,
+    "eps_robustness": 0.2,
+    "n_perturbations": 3,
+    "max_tries": 15,
+    "n_background": 30,
+    "lime_samples": 300,
+    "anchor_threshold": 0.95,
+    "pyxai_iterations": 5
+  }
+}

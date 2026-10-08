@@ -1,0 +1,3 @@
+modality,seed,date,host,python,commit,slurm_job,instance,y_true,y_pred,p_pred,method,kind,k,d,fid_del,fid_suf,sparsity,stability,robustness,n_valid_stab,n_valid_rob,consistency,time_s,auc_gt,precision_gt,n_gt_edges
+graph,0,2026-10-05T15:35:08,nodeGcor2,3.11.9,unknown,13156918,336,1,1,0.6438095569610596,gnnexplainer,attribution,6,7,0.025670900865494867,1.0,0.16306590576225688,1.0,1.0,3,3,1.0,0.1324530467391014,1.0,1.0,6
+graph,0,2026-10-05T15:35:08,nodeGcor2,3.11.9,unknown,13156918,336,1,1,0.6438095569610596,pgexplainer,attribution,6,7,0.025670900865494867,1.0,0.5899270231904336,0.7142857142857143,0.7142857142857143,3,3,1.0,0.008589044213294983,0.0,0.8333333333333334,6

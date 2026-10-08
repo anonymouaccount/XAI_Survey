@@ -1,0 +1,30 @@
+{
+  "accuracy": 0.9642857142857143,
+  "balanced_accuracy": 0.9642857142857143,
+  "auc": 0.9944897959183673,
+  "n_train": 557,
+  "n_test": 140,
+  "modality": "image",
+  "seed": 0,
+  "date": "2026-10-05T14:18:56",
+  "host": "nodeGcor2",
+  "python": "3.11.9",
+  "commit": "unknown",
+  "slurm_job": "13156891",
+  "config": {
+    "n_instances": 4,
+    "n_segments": 50,
+    "compactness": 20.0,
+    "epochs": 1,
+    "batch_size": 32,
+    "lr": 0.0001,
+    "k": 5,
+    "eps_stability": 0.01,
+    "eps_robustness": 0.05,
+    "n_perturbations": 3,
+    "max_tries": 20,
+    "n_background": 20,
+    "lime_samples": 100,
+    "shap_samples": 100
+  }
+}

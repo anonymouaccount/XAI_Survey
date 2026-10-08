@@ -1,0 +1,17 @@
+# Large or local files: never on GitHub
+offline/
+data/
+models/
+logs/
+*.pth
+*.pt
+*.ckpt
+__pycache__/
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+.vscode/
+# Results CSVs ARE committed (small, needed for the paper); intermediate files are not
+results/**/tmp/
+env/
+local_repo/

@@ -1,0 +1,4 @@
+# Same PyTorch as your CaHTGP environment (known to work on the quad_rtx_8000 GPUs).
+# Downloaded from https://download.pytorch.org/whl/cu130 (see scripts/prepare_offline.sh)
+torch==2.11.0
+torchvision==0.26.0

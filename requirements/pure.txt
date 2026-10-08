@@ -1,0 +1,7 @@
+# Source-only or dependency-heavy packages: downloaded and installed with --no-deps.
+# Their dependencies are listed in binary.txt.
+pyxai==2.0.1           # needs glibc >= 2.28 on the cluster (check: ldd --version); otherwise use 1.0.15
+docplex
+lime==0.2.0.1
+anchor-exp==0.0.2.0
+captum==0.8.0          # installed with --no-deps (it only needs torch, numpy<2, matplotlib, tqdm)
