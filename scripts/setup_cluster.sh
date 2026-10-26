@@ -1,6 +1,4 @@
 #!/usr/bin/env bash
-# Run on frontal, from the project folder, after copying it from the laptop.
-# Same method as CaHTGP: virtual environment + offline install from local_repo.
 set -euo pipefail
 cd "$(dirname "$0")/.."
 PY="${PYTHON:-python3.11}"
