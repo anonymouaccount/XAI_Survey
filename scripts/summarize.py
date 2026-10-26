@@ -1,11 +1,3 @@
-"""Aggregate the CSV results into the tables of the paper.
-
-    python scripts/summarize.py --modality tabular
-
-For each method: metrics are averaged over instances within each seed, then
-reported as mean ± standard deviation over seeds. Writes
-results/<modality>/summary.csv and results/<modality>/summary.tex (table rows).
-"""
 import argparse
 import glob
 import json
