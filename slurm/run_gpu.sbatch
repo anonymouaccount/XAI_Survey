@@ -1,8 +1,4 @@
 #!/bin/bash
-# Usage (from the repository root):   mkdir -p logs && sbatch slurm/run_gpu.sbatch image
-# Runs seeds 0, 1, 2 as a job array on one GPU each.
-# Default partition: quad_rtx_8000. If it is busy, use the H100 nodes:
-#   sbatch --partition=h100 slurm/run_gpu.sbatch text
 #SBATCH --job-name=xaib-gpu
 #SBATCH --output=logs/%x_%A_%a.out
 #SBATCH --error=logs/%x_%A_%a.err
