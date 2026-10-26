@@ -1,13 +1,3 @@
-"""Entry point for every experiment.
-
-    python scripts/run.py --modality tabular --seed 0
-    python scripts/run.py --modality tabular --seed 0 --smoke   # 5 instances, quick check
-
-Each modality lives in src/xaibench/<modality>.py and exposes
-    main(seed: int, smoke: bool) -> None
-which trains ONE model, explains the same instances with every method,
-and writes one CSV row per (instance, method) to results/<modality>/.
-"""
 import argparse
 import importlib
 
