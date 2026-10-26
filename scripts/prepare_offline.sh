@@ -1,18 +1,7 @@
 #!/usr/bin/env bash
-# =============================================================================
-# Run on your LAPTOP (with internet): Linux, macOS, or WSL / Git Bash on Windows.
-# Same method as for CaHTGP: everything the cluster needs is downloaded here,
-# then the whole project folder is copied to the cluster.
-#
-#   local_repo/   Python packages (wheels) for the cluster: Linux, Python 3.11
-#   data/raw/     the datasets
-#   models/       pretrained weights (ResNet-18, DistilBERT)
-#
-# Values below come from scripts/check_cluster.sh on frontal
 # (Python 3.11, glibc 2.39, PyTorch 2.11 + CUDA 13.0 already working on quad_rtx_8000).
 PYVER="${PYVER:-3.11}"
 CUDA_TAG="${CUDA_TAG:-cu130}"
-# =============================================================================
 set -euo pipefail
 cd "$(dirname "$0")/.."
 mkdir -p local_repo data/raw models/torch/hub/checkpoints models/hf
